@@ -1,0 +1,104 @@
+body {
+    font-family: "Microsoft YaHei";
+}
+
+.guidw {
+    font-size: 20px;
+    line-height: 90px;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 70px;
+}
+
+.zhuw1 {
+    color: #41466E;
+    line-height: 100px;
+}
+
+.stronger {
+    font-size: 35px;
+}
+
+.zhuw2 {
+    color: #262626;
+}
+
+.zhuw3 {
+    font-size: 20px;
+    color: #262626;
+    line-height: 40px;
+    word-wrap: break-word;
+}
+
+.tew1 {
+    text-align: center;
+    color: #181818;
+}
+
+.tew2 {
+    color: #181818;
+    font-size: 23px;
+    line-height: 40px;
+    text-decoration: underline;
+}
+
+.tew3 {
+    color: #6E6E6E;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.fw1 {
+    color: #9CA99C;
+    font-size: 15px;
+    max-width: 600px;
+}
+
+.fw2 {
+    color: #9A9A9A;
+    font-size: 13px;
+}
+
+.fw3 {
+    font-size: 35px;
+    color: #FFFFFF;
+}
+
+.low1 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 50px;
+}
+
+.low2 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.low3 {
+    font-size: 20px;
+}
+
+.low4 {
+    font-size: 20px;
+    color: #606266;
+    text-align: right;
+}
+
+.pt {
+    font-size: 30px;
+    font-weight: normal;
+
+}
+
+.pte {
+    font-size: 25px;
+    color: #606266;
+}

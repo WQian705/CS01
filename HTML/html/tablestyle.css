@@ -1,0 +1,80 @@
+.father {
+    width: 2485px;
+    height: 1374px;
+    background-color: #F6F6F6;
+    position: relative;
+}
+
+.son1 {
+    width: 750px;
+    height: 875px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+
+}
+
+.son2 {
+    width: 600px;
+    height: 850px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+
+}
+
+.in1 {
+    background-color: #FFFFFF;
+    background-image: url('../img/Per.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 72px;
+    height: 60px;
+    width: 520px;
+    border: none;
+    border-bottom: 2px solid #DCDFE6;
+    font-size: 25px;
+    color: #757575;
+}
+
+.in1:hover {
+    border: none;
+    border-bottom: 2px solid #909399;
+}
+
+.in2 {
+    background-color: #FFFFFF;
+    background-image: url('../img/Pas.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 72px;
+    height: 60px;
+    width: 520px;
+    border: none;
+    border-bottom: 2px solid #DCDFE6;
+    font-size: 25px;
+    color: #757575;
+}
+
+.in2:hover {
+    border: none;
+    border-bottom: 2px solid #909399;
+}
+
+input[type=text]:focus {
+    background-color: #F2F3F4;
+    color: black;
+}
+
+input[type=password]:focus {
+    background-color: #F2F3F4;
+    color: black;
+}

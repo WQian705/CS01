@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="words.css">
+    <link rel="stylesheet" href="tablestyle.css">
+    <link rel="stylesheet" href="buttons.css">
+    <link rel="stylesheet" href="mypop.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="top pic">
+            <div class="le pic">
+                <img src="../img/BJUL.png" width="500px" height="60px">
+            </div>
+
+            <div class="ce pic">
+                <div>
+                    <a href="04Project.html"><img src="../img//ZUOS.png" width="150px" height="50px" bord="0"></a>
+                    <img src="../img/TITLE.png" width="160px" height="70px">
+                </div>
+            </div>
+
+            <div class="ri pic">
+                <div class="dropdown">
+                    <button class="dropbtn"><img src="../img/LAN.png" width="55px" height="50px"></button>
+                    <div class="dropdown-content">
+                        <a href="#">English</a>
+                        <a href="#">简体中文</a>
+                        <a href="#">繁体中文</a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <img src="../img/CON.png" width="60px" height="50px">
+                    <div class="dropdown-content">
+                        <img src="../img/CONT.png" width="280px" height="450px">
+                    </div>
+
+                </div>
+
+                <div class="dropdown">
+                    <img src="../img/MY.png" width="50px" height="45px">
+                    <div class="dropdown-content">
+                        <p>个人信息</p>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <a href="01Main.html"><img src="../img/GO.png" width="60px" height="55px"></a>
+                    <div class="dropdown-content">
+                        <a href="01Main.html">退出登录</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    </div>
+
+    <div class="cen">
+        <div class="cent">
+            <div>
+                <div class="cle"><img src="../img/LIST.png"></div>
+                <div class="cri">
+                    <a href="05Open.html"><button class="button5">十新建项目</button></a>
+                    <button class="button5" id="openbtn">导入文档</button>
+                    <div class="overlay" id="overlay"></div>
+                    <div class="popup" id="popup">
+                        <form>
+                            <p class="pt">导入文档</p>
+                            <div>
+                                <input type="file">
+                                请上传txt、md、html、odt、docx、doc、rtf文件，支持UTF-8、GB2312等常见文件编码格式。您也可以上传JSON格式的「吾与点」交换数据文件。
+                            </div>
+                            <div class="cri">
+                                <button id="closebtn()" class="button6">取消</button>
+                                <button class="button7">开始导入</button>
+                            </div>
+                        </form>
+                    </div>
+                    <script>
+                        const openbtn = document.getElementById('openbtn');
+                        const closebtn = document.getElementById('closebtn');
+                        const popup = document.getElementById('popup');
+                        const overlay = document.getElementById('overlay');
+                        openbtn.addEventListener('click', function () {
+                            popup.style.display = 'block';
+                            overlay.style.display = 'block';
+                        })
+                    </script>
+                    <a href="07Operate.html"><button class="button5" id="openbtn">分析与导出</button></a>
+                    <a href="04Project.html"><button class="button8" id="openbtn">&lt 返回项目列表</button>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="cc">
+                <img src="../img/CENTER.png">
+            </div>
+
+
+        </div>
+
+    </div>
+
+    </div>
+
+</body>
+
+</html>
